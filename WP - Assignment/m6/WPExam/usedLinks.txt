@@ -1,0 +1,8 @@
+https://www.google.com/search?q=how+to+get+space+between+two+columns+in+html&rlz=1C1CHBF_enIN812IN812&oq=how+to+get+space+between+two+col&aqs=chrome.0.0j69i57j0l4.18766j0j7&sourceid=chrome&ie=UTF-8
+https://www.w3schools.com/tags/tag_figcaption.asp
+https://www.w3schools.com/tags/tag_hr.asp
+https://www.w3schools.com/cssref/css3_pr_box-shadow.asp
+https://www.w3schools.com/howto/howto_css_responsive_text.asp
+https://www.w3schools.com/css/css_image_transparency.asp
+https://www.w3schools.com/howto/howto_css_zoom_hover.asp
+https://www.w3schools.com/cssref/pr_pos_overflow.asp
