@@ -1,0 +1,27 @@
+div{
+	font-family: Georgia;
+	font-size: 13px;
+}
+
+.margin {
+	margin-left: 4px;
+	margin-right: 4px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	background-color: #eee;
+	border-style: 2px solid black;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.hintmargin {
+	margin-left: 4px;
+	margin-right: 4px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	background-color: #a1bed8;
+	border-style: 2px solid black;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 15px;
+}
