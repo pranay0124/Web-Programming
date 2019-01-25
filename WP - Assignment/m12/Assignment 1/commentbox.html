@@ -1,0 +1,50 @@
+<!doctype html>
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+	<title>Comment Box</title>
+	<link rel="stylesheet" type="text/css" href="commentbox.css">
+</head>
+<body>
+	<div class="container" style="background-color:#a1bed8;">
+		<div class="page-header margin"> <h2> Comment Box </h2> </div>
+		<div class="jumbotron" style="font-size: 20px;">
+			<form id="form_data">
+			  Name:
+			  <br>
+			  <input id="name_data" type="text" name="Name" placeholder="Enter Name">
+			  <br>
+			  Comment:
+			  <br>
+			  <input id="comment_data" type="text" name="Comment" placeholder="Give Comment">
+			  <br>
+			  Secret Key:
+			  <br>
+			  <input id="key_data" type="password" name="Secret Key" size="3">
+			  <!-- Click Me:
+			  <input type="submit" name="submit" value="submit" onclick="fun()"> -->
+			</form> 
+			<br>
+			<button onclick="fun()" class="submit_settings">Submit</button>
+			<h2>Comments List: </h2>
+			<p id="comments"><br></p>
+		</div>
+	</div>
+	<script type="text/javascript" src="commentbox.js"></script>
+</body>
+</html>
