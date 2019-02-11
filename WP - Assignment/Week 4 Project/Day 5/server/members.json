@@ -1,0 +1,21 @@
+[
+    {
+        "firstname" : "pranay",
+        "number": "9030269210",
+        "email": "pranay@gmail.com",
+        "password": "123456",
+        "address": "Chikkadpally",
+        "cart": [],
+        "wallet": 100   
+    },
+    
+    {
+        "firstname" : "neelu",
+        "number": "9030269210",
+        "email": "neelu@gmail.com",
+        "password": "123456",
+        "address": "Razole",
+        "cart": [],
+        "wallet": 100   
+    }
+]

@@ -1,0 +1,40 @@
+<!-- <div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-3">
+      <div class="panel panel-default" routerLink="/ProductView">
+        <div class="panel-body"><img src="../assets/clothing.jpg" class="img-responsive product-view" alt="Image"></div>
+        <div class="panel" style="text-align: center"><h4>{{productList[0].beauty[0].eyes[0].brand}}</h4><h6>Product Description</h6></div>
+      </div>
+    </div>
+    <div class="col-md-3"> 
+      <div class="panel panel-default" routerLink="/ProductView">
+        <div class="panel-body"><img src="../assets/clothing.jpg" class="img-responsive product-view" alt="Image"></div>
+        <div class="panel" style="text-align: center"><h4>Product Brand</h4><h6>Product Description</h6></div>
+      </div>
+    </div>
+    <div class="col-md-3"> 
+      <div class="panel panel-default" routerLink="/ProductView">
+        <div class="panel-body"><img src="../assets/clothing.jpg" class="img-responsive product-view" alt="Image"></div>
+        <div class="panel" style="text-align: center"><h4>Product Brand</h4><h6>Product Description</h6></div>
+      </div>
+    </div>
+    <div class="col-md-1"></div>
+</div> -->
+
+<div class="container">
+  <div class="row panel panel-default" *ngFor="let i of productList">
+    <div class="panel panel-default" >
+      <div class="col-md-3">
+        <div class="panel-body"><img src="../assets/shop/{{i.imageurl[0]}}" class="img-responsive product-view" alt="Image" routerLink="/Product/{{category}}/{{ i.id }}"></div>
+      </div>
+      <div class="col-md-9">
+        <div class="panel panel-heading product-title" style="text-align: center; cursor:pointer;"><h3 routerLink="/Product/{{category}}/{{ i.id }}">{{i.title}}</h3><h5>{{i.shortdescription}}</h5></div>
+          <div class="product-desc">Description : {{i.longdescription}}</div>
+          <hr>
+          <div class="product-price">Price : {{i.price}}</div>
+          <div class="product-stock">Quantity : {{i.quantity}}</div>
+          <button type="button" value="cart" style="float: right;" routerLink="/Product/{{category}}/{{ i.id }}">View Details</button>
+      </div>
+  </div>
+  </div>
+</div>
